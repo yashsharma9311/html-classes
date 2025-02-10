@@ -3,9 +3,14 @@ div{
     color: aqua;
 
 }
-img{
-    margin: 50%;
+#img{
+    background-image: url(https://lh3.googleusercontent.com/RUg9YJuY2cPjh5znR5ZLqLJIBrm1CM2JuwCS1XP6g31ZDPa_NR--jR0JAum5qDbl2g5UKgBwM4SHSuyiWqjyd7VhBUI=s1280-w1280-h800);
+    border: 6px solid blue;
+     height: 700px;
+     width:200%
+    
+
 }
 a{
-    text-decoration: none;
+    text-decoration: dotted;
 }
