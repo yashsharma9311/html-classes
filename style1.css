@@ -1,0 +1,14 @@
+h1{
+    color:red;
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: black; */
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 1%;  
+}
+p{
+    color: black;
+    background-color: aqua;
+}

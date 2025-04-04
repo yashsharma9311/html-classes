@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <h1><u>list</u></h1>
@@ -13,7 +14,7 @@
     <!-- bydefault ol type is number 1,2,3....so on -->
      <!-- atribute :- additional information about tag -->
      <!-- types are A,a,I,i,1 -->
-    <ol type="i">
+    <ol type="i" style="background-color: aqua;">
         <li>apple</li>   
         <li>orange</li>
         <li>banana</li>
@@ -22,22 +23,22 @@
     <h1><u>unorder list</u></h1>
     <!-- bydefault ul type is disk -->
     <!-- type are disk,square,circle -->
-    <ul type="Square">
+    <ul type="Square" style="background-color: aqua;">
         <li>apple</li>
         <li>orange</li>
         <li>banana</li>
     </ul>
     <!-- nesting -->
-    <h1><u>nested list</u></h1>
+    <h1 style=><u>nested list</u></h1>
      <ol>
-        <li>GAME
-            <ol>
+        <li style="background-color: blanchedalmond;">GAME
+            <ol style="background-color: aqua;">
                 <li>BGMI</li>
                 <li>free fire</li>
             </ol>
         </li>
-        <li>MAKEUP 
-            <ol>
+        <li style="background-color: blanchedalmond;">MAKEUP 
+            <ol style="background-color: aqua;">
                 <li>mascara </li>
                 <li>lipstick</li>
             </ol>
@@ -84,7 +85,7 @@
 
     <!-- plaseholder is used to write msg in the box  -->
 
-    <form align="center"action="https://api.web3forms.com/submit" method="POST">
+    <form align="center"action="https://api.web3forms.com/submit" method="POST" style="background-color: gray;">
         <input type="hidden" name="access_key" value="ed4e6c97-5fb7-46c7-9777-66fc44296619">
 
     <!-- lable tag is used to when user will click on the text that the form given then the automaticlly the input tag will link -->
@@ -183,5 +184,6 @@
 
      Hellow &nbsp; &nbsp; &nbsp; &nbsp; World 
 
+     <!-- selecter:- id(#),class(.) -->
 </body> 
 </html>
