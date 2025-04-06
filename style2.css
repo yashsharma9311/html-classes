@@ -1,0 +1,44 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+    overflow: hidden;
+}
+label{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    z-index: 2;
+}
+input{
+    height: 0%;
+    width: 0%;
+    position: fixed;
+    left: 100%;
+    transform: scale(0);
+}
+.social-links{
+    writing-mode: 44px;
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+}
+.social-links > a + a{
+    margin-top: 0.5rem;
+}
+.social-link{
+    height: 44px;
+    width: 44px;
+    display:inline-block;
+}
+.social-link-jhey{
+    --saturation: 49%;
+}
+.social-link-jhey img{
+    transition: filter 0.2s;
+}
