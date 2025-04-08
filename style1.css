@@ -14,3 +14,22 @@ p{
     color: black;
     background-color: aqua;
 }
+
+#container{
+
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+#container div{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
